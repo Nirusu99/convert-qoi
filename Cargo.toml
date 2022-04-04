@@ -2,9 +2,10 @@
 name = "convert-qoi"
 version = "0.1.0"
 edition = "2021"
-author = "Nils Pukropp"
+authors = ["Nils Pukropp"]
 
 [dependencies]
-qoi = "0"
-image = "0"
-clap = { version = "3", features = ["derive"] }
+qoi = "^0"
+image = "^0"
+clap = { version = "^3", features = ["derive"] }
+tracing = "^0"
